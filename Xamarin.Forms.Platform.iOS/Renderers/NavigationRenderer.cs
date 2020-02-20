@@ -669,18 +669,18 @@ namespace Xamarin.Forms.Platform.iOS
 				};
 			}
 
-			if (Forms.IsiOS13OrNewer)
-			{
-				NavigationBar.CompactAppearance.TitleTextAttributes = titleTextAttributes;
-				NavigationBar.CompactAppearance.LargeTitleTextAttributes = largeTitleTextAttributes;
+			//if (Forms.IsiOS13OrNewer)
+			//{
+			//	NavigationBar.CompactAppearance.TitleTextAttributes = titleTextAttributes;
+			//	NavigationBar.CompactAppearance.LargeTitleTextAttributes = largeTitleTextAttributes;
 
-				NavigationBar.StandardAppearance.TitleTextAttributes = titleTextAttributes;
-				NavigationBar.StandardAppearance.LargeTitleTextAttributes = largeTitleTextAttributes;
+			//	NavigationBar.StandardAppearance.TitleTextAttributes = titleTextAttributes;
+			//	NavigationBar.StandardAppearance.LargeTitleTextAttributes = largeTitleTextAttributes;
 
-				NavigationBar.ScrollEdgeAppearance.TitleTextAttributes = titleTextAttributes;
-				NavigationBar.ScrollEdgeAppearance.LargeTitleTextAttributes = largeTitleTextAttributes;
-			}
-			else
+			//	NavigationBar.ScrollEdgeAppearance.TitleTextAttributes = titleTextAttributes;
+			//	NavigationBar.ScrollEdgeAppearance.LargeTitleTextAttributes = largeTitleTextAttributes;
+			//}
+			//else
 			{
 				NavigationBar.TitleTextAttributes = titleTextAttributes;
 
@@ -706,11 +706,11 @@ namespace Xamarin.Forms.Platform.iOS
 			if (statusBarColorMode == StatusBarTextColorMode.DoNotAdjust || barTextColor.Luminosity <= 0.5)
 			{
 				// Use dark text color for status bar
-				if (Forms.IsiOS13OrNewer)
-				{
-					UIApplication.SharedApplication.StatusBarStyle = UIStatusBarStyle.DarkContent;
-				}
-				else
+				//if (Forms.IsiOS13OrNewer)
+				//{
+				//	UIApplication.SharedApplication.StatusBarStyle = UIStatusBarStyle.DarkContent;
+				//}
+				//else
 				{
 					UIApplication.SharedApplication.StatusBarStyle = UIStatusBarStyle.Default;
 				}
