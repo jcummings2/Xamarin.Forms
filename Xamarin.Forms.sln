@@ -90,8 +90,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.Controls.Issu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.ControlGallery.WindowsUniversal", "Xamarin.Forms.ControlGallery.WindowsUniversal\Xamarin.Forms.ControlGallery.WindowsUniversal.csproj", "{AC257966-9368-478A-9DF4-F0D28E320FE3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.Platform.UAP", "Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.csproj", "{00D8D049-FFAA-4759-8FC9-1ECA30777F72}"
-EndProject
+#Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.Platform.UAP", "Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.csproj", "{00D8D049-FFAA-4759-8FC9-1ECA30777F72}"
+#EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.Maps.UWP", "Xamarin.Forms.Maps.UWP\Xamarin.Forms.Maps.UWP.csproj", "{04D89A60-78EF-4A32-AE17-87E47E0233A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.Core.Windows.UITests", "Xamarin.Forms.Core.Windows.UITests\Xamarin.Forms.Core.Windows.UITests.csproj", "{0A39A74B-6F7A-4D41-84F2-B0CCDCE899DF}"
