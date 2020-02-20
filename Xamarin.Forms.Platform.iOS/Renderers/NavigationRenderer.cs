@@ -626,22 +626,22 @@ namespace Xamarin.Forms.Platform.iOS
 				? UINavigationBar.Appearance.BarTintColor
 				: barBackgroundColor.ToUIColor();
 			}
-			else
-			{
-				var navigationBarAppearance = new UINavigationBarAppearance();
+			//else
+			//{
+			//	var navigationBarAppearance = new UINavigationBarAppearance();
 
-				if (barBackgroundColor == Color.Default)
-					navigationBarAppearance.ConfigureWithDefaultBackground();
-				else
-				{
-					navigationBarAppearance.ConfigureWithOpaqueBackground();
-					navigationBarAppearance.BackgroundColor = barBackgroundColor.ToUIColor();
-				}
+			//	if (barBackgroundColor == Color.Default)
+			//		navigationBarAppearance.ConfigureWithDefaultBackground();
+			//	else
+			//	{
+			//		navigationBarAppearance.ConfigureWithOpaqueBackground();
+			//		navigationBarAppearance.BackgroundColor = barBackgroundColor.ToUIColor();
+			//	}
 
-				NavigationBar.CompactAppearance = navigationBarAppearance;
-				NavigationBar.StandardAppearance = navigationBarAppearance;
-				NavigationBar.ScrollEdgeAppearance = navigationBarAppearance;
-			}
+			//	NavigationBar.CompactAppearance = navigationBarAppearance;
+			//	NavigationBar.StandardAppearance = navigationBarAppearance;
+			//	NavigationBar.ScrollEdgeAppearance = navigationBarAppearance;
+			//}
 		}
 
 		void UpdateBarTextColor()

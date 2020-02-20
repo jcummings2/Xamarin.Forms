@@ -137,9 +137,9 @@ namespace Xamarin.Forms.Platform.iOS
 		{
 			UIColor backgroundColor;
 
-			if (Forms.IsiOS13OrNewer)
-				backgroundColor = UIColor.SystemBackgroundColor;
-			else
+			//if (Forms.IsiOS13OrNewer)
+			//	backgroundColor = UIColor.SystemBackgroundColor;
+			//else
 				backgroundColor = UIColor.White;
 
 			if (Element.BackgroundColor != Color.Default)
