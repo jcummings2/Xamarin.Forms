@@ -148,6 +148,10 @@ Task("_NuGetPack")
 
         Information("Nuget Version: {0}", nugetversion);
 
+        nugetversion = "9.9.9-JohnHack";
+
+        Information("Nuget Version OVERRIDE: {0}", nugetversion);
+
         var nugetPackageDir = Directory("./artifacts");
         var nuGetPackSettings = new NuGetPackSettings
         {
